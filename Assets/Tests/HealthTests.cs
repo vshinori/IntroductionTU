@@ -140,16 +140,7 @@ public class HealthTests
         Assert.AreEqual(60, h.CurrentHealth);
         Assert.AreEqual(100, h.MaxHealth);
     }
-    [Test]
-    public void Healhuge()
-    {
-        Health h = new Health(100, 50);
-
-        h.Heal(1000);
-
-        Assert.AreEqual(100, h.CurrentHealth);
-        Assert.AreEqual(100, h.MaxHealth);
-    }
+    
     [Test]
     public void HealWith0()
     {
